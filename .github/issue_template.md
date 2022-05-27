@@ -4,7 +4,7 @@
 3. Please add the correct MC<version> label to your issue. Example: "[1.12.2] Waypoints are upside down"
 4. Upload your log files or use gist, pastebin, or some similar site. Pasting log contents directly into the issue will get the issue closed immediately.
 5. Completely fill out the template below. Failure to do so is likely to get the issue closed immediately.
-6. Prove you read these instructions by deleting this section before submitting. ;)
+6. #### Prove you read these instructions by deleting this section before submitting. ;)
 ---
   
 #### JourneyMap Version:
