@@ -1,6 +1,6 @@
 # [JourneyMap for Minecraft][1]
 
-Source code and build resources for [JourneyMap][2] ([http://journeymap.info][2])
+~~Source code and build resources for [JourneyMap][2] ([http://journeymap.info][2])~~
 
 ## Coming Soon-ish
 
