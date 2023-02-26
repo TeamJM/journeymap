@@ -1,0 +1,22 @@
+name: Feature Request
+description: File a feature request
+title: "[Feature Request]: {replace with description}"
+labels: ["a:enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask for help on Discord (https://discord.gg/eP8gE69) #jm-discussion if you're unsure this is a new feature request.
+        Please search for existing issues before submitting a new one.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the new feature.
+      description: Provide as much details as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: Images
+      description: Upload any images to help describe your feature request here. 
