@@ -1,0 +1,58 @@
+name: Crash Report
+description: File a crash report
+title: "[Crash]: {replace with description}"
+labels: ["a:crash"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask for help on Discord (https://discord.gg/eP8gE69) #jm-support if you're unsure this is a new issue.
+        Please search for existing issues before submitting a new one.
+        Please add the correct MC label to your issue. Example: "[1.12.2] Waypoints are upside down"
+        Upload your log files or use gist, pastebin, or some similar site. Pasting log contents directly into the issue will get the issue closed immediately.
+        Completely fill out the template below. Failure to do so is likely to get the issue closed immediately.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A crash happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: mc-version
+    attributes:
+      label: Minecraft Version
+      description: Select your Minecraft version?
+      options:
+        - 1.19.3+(Default)
+        - 1.19.2
+        - 1.18.2
+        - 1.17.x
+        - 1.16.5
+        - 1.15.x
+        - 1.14.x
+        - 1.12.2
+        - 1.7.10
+        - other (please list)
+    validations:
+      required: true
+  - type: dropdown
+    id: jm-version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 5.9.3 (Default)
+        - 6.0.0
+        - 5.8.5
+        - 5.7.1
+        - other (please list)
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please upload your `.minecraft/journeymap/journeymap.log`, `.minecraft/logs/latest.log` and `.minecraft/crash-reports/crash{date}-{client/server}.txt` Do not copy and paste into the issue or it will be closed.
