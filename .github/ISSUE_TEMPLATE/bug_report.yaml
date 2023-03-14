@@ -26,7 +26,8 @@ body:
       label: Minecraft Version
       description: Select your Minecraft version?
       options:
-        - 1.19.3+(Default)
+        - 1.19.4+(Default)
+        - 1.19.3
         - 1.19.2
         - 1.18.2
         - 1.17.x
@@ -44,7 +45,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 5.9.3 (Default)
+        - 5.9.4 (Default)
+        - 5.9.3
         - 6.0.0
         - 5.8.5
         - 5.7.1
