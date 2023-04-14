@@ -54,7 +54,7 @@ body:
     id: jm-version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: What version of JourneyMap are you running?
       options:
         - 5.9.5
         - 5.9.4
