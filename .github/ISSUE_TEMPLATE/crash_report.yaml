@@ -37,6 +37,8 @@ body:
       label: Minecraft Version
       description: Select your Minecraft version?
       options:
+        - 1.20.1
+        - 1.20
         - 1.19.4+
         - 1.19.3
         - 1.19.2
@@ -56,6 +58,8 @@ body:
       label: Version
       description: What version of JourneyMap are you running?
       options:
+        - 6.0.0
+        - 5.9.7
         - 5.9.5
         - 5.9.4
         - 5.9.3
