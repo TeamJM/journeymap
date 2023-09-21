@@ -27,6 +27,7 @@ body:
       description: Select your Mod Loader
       options:
         - Forge
+        - NeoForge
         - Fabric
         - Quilt
     validations:
@@ -37,6 +38,7 @@ body:
       label: Minecraft Version
       description: Select your Minecraft version?
       options:
+        - 1.20.2
         - 1.20.1
         - 1.20
         - 1.19.4+
@@ -58,6 +60,7 @@ body:
       label: Version
       description: What version of JourneyMap are you running?
       options:
+        - 5.9.13
         - 5.9.12
         - 5.9.8
         - 5.9.7
