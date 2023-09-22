@@ -60,6 +60,7 @@ body:
       label: Version
       description: What version of JourneyMap are you running?
       options:
+        - 5.9.14
         - 5.9.13
         - 5.9.12
         - 5.9.8
