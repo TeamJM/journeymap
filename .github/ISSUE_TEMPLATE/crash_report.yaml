@@ -58,16 +58,9 @@ body:
     id: jm-version
     attributes:
       label: Version
-      description: What version of JourneyMap are you running?
+      description: What version of JourneyMap are you running? Download the latest for your version of minecraft before creating a crash report please.
       options:
-        - 5.9.14
-        - 5.9.13
-        - 5.9.12
-        - 5.9.8
-        - 5.9.7
-        - 5.9.5
-        - 5.9.4
-        - 5.9.3
+        - 5.9.18
         - 5.8.5
         - 5.7.1
         - other (please list)
