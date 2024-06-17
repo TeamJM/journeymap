@@ -38,6 +38,7 @@ body:
       label: Minecraft Version
       description: Select your Minecraft version?
       options:
+        - 1.21.x
         - 1.20.2
         - 1.20.1
         - 1.20
@@ -60,6 +61,7 @@ body:
       label: Version
       description: What version of JourneyMap are you running? Download the latest for your version of minecraft before creating a bug report please.
       options:
+        - 6.0.0
         - 5.9.18
         - 5.8.5
         - 5.7.1
