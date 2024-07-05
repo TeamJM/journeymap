@@ -1,6 +1,6 @@
 name: Crash Report
 description: File a crash report
-title: "[Crash]: {replace with description}"
+title: "[Crash]: replace with description"
 labels: ["a:crash"]
 body:
   - type: markdown
@@ -41,8 +41,7 @@ body:
         - 1.21.x
         - 1.20.2
         - 1.20.1
-        - 1.20
-        - 1.19.4+
+        - 1.19.4
         - 1.19.3
         - 1.19.2
         - 1.18.2
@@ -62,7 +61,8 @@ body:
       description: What version of JourneyMap are you running? Download the latest for your version of minecraft before creating a crash report please.
       options:
         - 6.0.0
-        - 5.9.18
+        - 5.10.0
+        - 5.9.x
         - 5.8.5
         - 5.7.1
         - other (please list)
