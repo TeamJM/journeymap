@@ -72,6 +72,5 @@ body:
     attributes:
       label: Relevant log output
       description: Please upload your `.minecraft/journeymap/journeymap.log`, `.minecraft/logs/latest.log` and `.minecraft/crash-reports/crash{date}-{client/server}.txt` Do not copy and paste into the issue or it will be closed.
-      maxlength: 200
       validations:
         required: true
