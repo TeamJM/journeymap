@@ -49,7 +49,7 @@ body:
         - 1.12.2
         - 1.7.10
         - other (please list)
-      default: 1
+      default: -1
     validations:
       required: true
   - type: dropdown
