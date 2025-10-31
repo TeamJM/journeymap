@@ -36,7 +36,6 @@ body:
     attributes:
       label: Minecraft Version
       description: Select your Minecraft version?
-      default: 0
       options:
         - 1.21.10
         - 1.21.1
@@ -50,6 +49,7 @@ body:
         - 1.12.2
         - 1.7.10
         - other (please list)
+    default: 0
     validations:
       required: true
   - type: dropdown
@@ -57,7 +57,6 @@ body:
     attributes:
       label: Version
       description: What version of JourneyMap are you running? Download the latest for your version of minecraft before creating a crash report please.
-      default: 0
       options:
         - 6.0.0-beta.x - Specify Beta version
         - 5.10.0
@@ -65,6 +64,7 @@ body:
         - 5.8.5
         - 5.7.1
         - other (please list)
+    default: 0
     validations:
       required: true
   - type: textarea
@@ -72,5 +72,6 @@ body:
     attributes:
       label: Relevant log output
       description: Please upload your `.minecraft/journeymap/journeymap.log`, `.minecraft/logs/latest.log` and `.minecraft/crash-reports/crash{date}-{client/server}.txt` Do not copy and paste into the issue or it will be closed.
+      maxlength: 200
       validations:
         required: true
