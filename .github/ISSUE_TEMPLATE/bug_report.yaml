@@ -73,4 +73,4 @@ body:
       label: Relevant log output
       description: Please upload your `.minecraft/journeymap/journeymap.log` and `.minecraft/logs/latest.log` Do not copy and paste into the issue or it will be closed.
     validations:
-        required: true
+      required: true
