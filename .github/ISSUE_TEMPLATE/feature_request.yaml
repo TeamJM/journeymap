@@ -1,6 +1,5 @@
 name: Feature Request
 description: File a feature request
-title: "[Feature Request]: {replace with description}"
 labels: ["a:enhancement"]
 body:
   - type: markdown
@@ -19,4 +18,4 @@ body:
     id: info
     attributes:
       label: Images
-      description: Upload any images to help describe your feature request here. 
+      description: Upload any images to help describe your feature request here.

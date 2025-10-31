@@ -1,6 +1,5 @@
 name: Crash Report
 description: File a crash report
-title: "[Crash]: replace with description"
 labels: ["a:crash"]
 body:
   - type: markdown
@@ -17,7 +16,6 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A crash happened!"
     validations:
       required: true
   - type: dropdown
@@ -25,6 +23,7 @@ body:
     attributes:
       label: Mod Loader
       description: Select your Mod Loader
+      multiple: true
       options:
         - Forge
         - NeoForge
@@ -37,9 +36,9 @@ body:
     attributes:
       label: Minecraft Version
       description: Select your Minecraft version?
+      default: 0
       options:
-        - 1.21.8
-        - 1.21.5
+        - 1.21.10
         - 1.21.1
         - 1.20.1
         - 1.19.4
@@ -58,6 +57,7 @@ body:
     attributes:
       label: Version
       description: What version of JourneyMap are you running? Download the latest for your version of minecraft before creating a crash report please.
+      default: 0
       options:
         - 6.0.0-beta.x - Specify Beta version
         - 5.10.0
@@ -72,3 +72,6 @@ body:
     attributes:
       label: Relevant log output
       description: Please upload your `.minecraft/journeymap/journeymap.log`, `.minecraft/logs/latest.log` and `.minecraft/crash-reports/crash{date}-{client/server}.txt` Do not copy and paste into the issue or it will be closed.
+      maxlength: 200
+      validations:
+        required: true
